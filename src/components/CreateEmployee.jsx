@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 const CreateEmployee = () => {
 
-    const[data,setData] = useState({fullname: "",
+    const[data,setData] = useState({
+        fullname: "",
         email: "",
         phonenumber: "",
         jobposition: "",
