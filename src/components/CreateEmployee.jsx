@@ -22,7 +22,7 @@ const CreateEmployee = () => {
    async function submitHandler(event) {
     event.preventDefault();
     console.log(data);
-     const response = await fetch("http://localhost:3000/api/v1/createEmployee",{
+     const response = await fetch("https://vercel-backend-xt7u.onrender.com//api/v1/createEmployee",{
         method: "POST",
         headers:{
             "Content-Type": "application/json"
