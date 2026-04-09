@@ -7,7 +7,7 @@ const Homepage = () => {
 
     async function fetchData() {
         try {
-             const response = await fetch("http://localhost:3000/api/v1/getAllEmployee");
+             const response = await fetch("https://vercel-backend-xt7u.onrender.com//api/v1/getAllEmployee");
             const data = await response.json();
             console.log(data);
             setUser(data.data);
